@@ -1,0 +1,23 @@
+.nav{
+  display: flex;
+  flex-direction: row;
+}
+.nav ul { 
+  list-style-type: none;
+  display: flex;
+}
+
+.nav li{
+  padding-right: 5px;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 2px;
+}
+
+.nav a:hover {
+  border-bottom: 1px solid rgba(255, 166, 0, 0.812);
+  background-color: orange;
+  color: white;
+}
